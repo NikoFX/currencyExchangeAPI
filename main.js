@@ -96,13 +96,13 @@ function truncDigits(inputNumber, digits) {
 const menuUl = document.querySelector('.menu-ul')
 const icon = document.querySelector('.fa')
 function menuToggle() {
-    if (menuUl.style.display == 'none') {
-        menuUl.style.display = 'flex'
-        document.querySelector('.button').style.display = 'block'
-        icon.classList.replace('fa-bars','fa-times')
-    }else{
+    if (menuUl.style.display == 'flex') {
         menuUl.style.display = 'none'
         document.querySelector('.button').style.display = 'none'
         icon.classList.replace('fa-times','fa-bars')
+    }else{
+        menuUl.style.display = 'flex'
+        document.querySelector('.button').style.display = 'block'
+        icon.classList.replace('fa-bars','fa-times')
     }
 }
