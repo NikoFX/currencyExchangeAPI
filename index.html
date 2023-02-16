@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <img class="logo" src="logo.svg">
+
+            <ul class="menu-ul" style="display: none;">
+                <li>BANK</li>
+                <li>BUSINESS</li>
+                <li>INVESTING</li>
+                <li>INSURANCE</li>
+                <li>MOBILE</li>
+                <li>TRAVEL</li>
+                <li>ENTERTAINMENT</li>
+            </ul>
+
+            <button class="button">EXIT</button>
+            <i class="fa fa-bars" onclick="menuToggle()"></i>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <h1>Exchange online</h1>
+        <div class="row">
+            <div class="item i-have">
+                <span class="mode">I have</span>
+                <div class="header">
+                    <ul class="symbols-ul">
+                        <li>USD</li>
+                        <li>AZN</li>
+                        <li>EUR</li>
+                        <li>RUB</li>
+                    </ul>
+                </div>
+                <div class="body">
+                    <input type="number" class="amount" value="0" placeholder="0"></input>
+                    <div class="little-info"></div>
+                </div>
+            </div>
+            <div class="item i-want-to-exchange">
+                <span class="mode">I want to exchange</span>
+                <div class="header">
+                    <ul class="symbols-ul">
+                        <li>USD</li>
+                        <li>AZN</li>
+                        <li>EUR</li>
+                        <li>RUB</li>
+                    </ul>
+                </div>
+                <div class="body">
+                    <input type="number" class="amount" value="0" disabled></input>
+                    <div class="little-info"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
