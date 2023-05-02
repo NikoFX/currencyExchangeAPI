@@ -11,6 +11,7 @@ Currency Exchange App
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
+
 The Exchange App is a web application built with pure JavaScript, HTML, and CSS that enables users to view and convert currency rates using an API.
 
 ## Features
@@ -22,6 +23,9 @@ The Exchange App is a web application built with pure JavaScript, HTML, and CSS 
 - Option to view historical rates for a specific period
 - Easy integration with any website
 
+Free foreign exchange,
+crypto rates & EU VAT Rates [API](https://exchangerate.host/)
+
 ## Meta
 
  Nijat Gurbanov
@@ -32,7 +36,7 @@ The Exchange App is a web application built with pure JavaScript, HTML, and CSS 
 
 ## Contributing
 
-1. Fork it (<https://github.com/NikoFX/react-pizza-app/fork>)
+1. Fork it
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
