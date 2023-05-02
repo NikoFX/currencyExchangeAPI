@@ -4,6 +4,7 @@ Currency Exchange App
 
  ## [Demo](https://nikofx.github.io/currencyExchangeAPI/)
 
+![](header.png)
 
 ## Tools
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -20,8 +21,6 @@ The Exchange App is a web application built with pure JavaScript, HTML, and CSS 
 - Option to select a base currency
 - Option to view historical rates for a specific period
 - Easy integration with any website
-
-![](header.png)
 
 ## Meta
 
