@@ -2,7 +2,7 @@ Currency Exchange App
 > currencyExchangeAPI
 
 
- ## [Demo](https://reas/](https://nikofx.github.io/currencyExchangeAPI/)
+ ## [Demo](https://nikofx.github.io/currencyExchangeAPI/)
 
 
 ## Tools
